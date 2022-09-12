@@ -3,24 +3,24 @@
 ## **Description**
 Using github actions to develop a docker container of a web server and publish it into a public registry. This application build a frontend page with information about challenge 4
 
-## github repository
-[Repository](https://github.com/javierSanchez5/react-webserver)
+## docker hub repository
+[Repository](https://hub.docker.com/repository/docker/sanchezsv/reactwebserver)
 
 ## Commands for docker
 
 ### Docker cheatsheet
 [Docker coomands](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 
-### `Build image`
+### `Build image using Dockerfile`
 `docker build -t <image_name> .`
 
-### `Pull image`
+### `Pull image from repository`
 
 `docker pull sanchezsv/reactwebserver`
 
 or 
 
-`docker pull sanchezsv/webserver:[version]`
+`docker pull sanchezsv/webserver:[tag]`
 
 ### `run container`
 
