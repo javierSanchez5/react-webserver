@@ -1,7 +1,9 @@
 # Challenge Week 4
 
 ## **Description**
-Using github actions to develop a docker container of a web server and publish it into a public registry. This application build a frontend page with information about challenge 4
+Using github actions to develop a docker container of a web server and publish it into a public registry. This application build a frontend page with information about challenge 4.
+
+Using multi-stage builds we optimize Dockerfile. the first stage we create a temporary image used to build the aplication, setting up all necessary dependencies in order to build our react application. The second stage we copied the content stored in build to the default path used by nginx
 
 ## docker hub repository
 [Repository](https://hub.docker.com/repository/docker/sanchezsv/reactwebserver)
