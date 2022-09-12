@@ -12,7 +12,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://hub.docker.com/repository/docker/sanchezsv/webserver"
+          href="https://hub.docker.com/repository/docker/sanchezsv/reactwebserver"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -20,7 +20,7 @@ function App() {
         </a>
         <a
           className="App-link"
-          href="https://github.com/javierSanchez5/web-server"
+          href="https://github.com/javierSanchez5/react-webserver"
           target="_blank"
           rel="noopener noreferrer"
         >
