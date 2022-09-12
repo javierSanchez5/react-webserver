@@ -4,9 +4,12 @@
 Using github actions to develop a docker container of a web server and publish it into a public registry. This application build a frontend page with information about challenge 4
 
 ## github repository
-[Repository](https://github.com/javierSanchez5/react-webserver
+[Repository](https://github.com/javierSanchez5/react-webserver)
 
 ## Commands for docker
+
+### Docker cheatsheet
+[Docker coomands](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 
 ### `Build image`
 `docker build -t <image_name> .`
